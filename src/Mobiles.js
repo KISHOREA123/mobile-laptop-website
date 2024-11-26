@@ -160,10 +160,6 @@ const Mobiles = () => {
     navigate(`/product/${id}`);
   };
 
-  const handleAddToCart = (product) => {
-    navigate('/cart'); 
-  };
-
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
   );

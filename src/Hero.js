@@ -30,7 +30,6 @@ const Hero = () => {
         <div className="product-carousel1">
           {products.map((product) => (
             <div key={product.id} className="product-container">
-              <div className="badge">Special Offer</div>
               <div onClick={() => handleProductClick(product.id)}>
                 <img 
                   src={product.image} 
